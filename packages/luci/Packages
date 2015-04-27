@@ -1,0 +1,117 @@
+Package: luci-app-firewall
+Version: git-15.113.66125-f322842-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 10446
+Filename: luci-app-firewall_git-15.113.66125-f322842-1_all.ipk
+Size: 11162
+MD5Sum: dc08e1449d10d9ac9aff400f21ebfa00
+SHA256sum: fc16c9dabe339db99ef38371d6ed226aa0ca0674d51f9855d25849d35ab060fd
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: git-15.113.66125-f322842-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: lantiq
+Installed-Size: 122611
+Filename: luci-base_git-15.113.66125-f322842-1_lantiq.ipk
+Size: 123448
+MD5Sum: defd8be28901fb4ef3b4b3c957e538d0
+SHA256sum: a6bc98095e0153f3f1c4ff41200a06abe945b2a57fb579034ef8987204a55785
+Description:  LuCI core libraries
+
+Package: luci-lib-ip
+Version: git-15.113.66125-f322842-1
+Depends: libc, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Architecture: lantiq
+Installed-Size: 8897
+Filename: luci-lib-ip_git-15.113.66125-f322842-1_lantiq.ipk
+Size: 9611
+MD5Sum: f42df96ed4864e6ab8cd263d2cac3e5b
+SHA256sum: 116c678e83b66bb01126e7ddf254f5acacd9ba8f7e201767cacf1bb18ae90b5c
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-nixio
+Version: git-15.113.66125-f322842-1
+Depends: libc, liblua
+Source: feeds/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: lantiq
+Installed-Size: 27951
+Filename: luci-lib-nixio_git-15.113.66125-f322842-1_lantiq.ipk
+Size: 28482
+MD5Sum: c0b8d5e91c8ff33a0878d0674c7c897d
+SHA256sum: be8cda5a63a14b257638e9295b7876e5f0328dc8f38ba2bdaff348ef28504803
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-15.113.66125-f322842-1
+Depends: libc, luci-base, libubus-lua
+Source: feeds/luci/modules/luci-mod-admin-full
+Section: luci
+Architecture: lantiq
+Installed-Size: 67941
+Filename: luci-mod-admin-full_git-15.113.66125-f322842-1_lantiq.ipk
+Size: 68778
+MD5Sum: e38400588371c5183c449f82fbbc7d55
+SHA256sum: 2c677f7475afffd5ce493869f3fae23fa2ea5778b11eae8e4d9e21df838a615a
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: git-15.113.66125-f322842-1
+Depends: libc, comgt
+Source: feeds/luci/protocols/luci-proto-3g
+Section: luci
+Architecture: all
+Installed-Size: 1691
+Filename: luci-proto-3g_git-15.113.66125-f322842-1_all.ipk
+Size: 2399
+MD5Sum: 26b3fc326284becd73f7e984169a9b02
+SHA256sum: e3bac9cc3aa2798d52cf8bfb843488d87603f3e96c3ebe1708d12c3f8bf34684
+Description:  Support for 3G
+
+Package: luci-proto-ppp
+Version: git-15.113.66125-f322842-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+Section: luci
+Architecture: all
+Installed-Size: 2609
+Filename: luci-proto-ppp_git-15.113.66125-f322842-1_all.ipk
+Size: 3283
+MD5Sum: e674b5399c3fb218526ba0a08d9a5f5e
+SHA256sum: 24a8b9b981761ce0e25dca96f9220350a96ba12862fb06bd6ef92cdd39500d6e
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-15.113.66125-f322842-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-bootstrap
+Section: luci
+Architecture: all
+Installed-Size: 13052
+Filename: luci-theme-bootstrap_git-15.113.66125-f322842-1_all.ipk
+Size: 13775
+MD5Sum: a79667c364c6eb3045fa1baaa7f30cdd
+SHA256sum: e6508b3e8924051199780011e641402f5db3fa37a500cfe784fedea75ca74407
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-15.113.66125-f322842-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua
+Source: feeds/luci/collections/luci
+Section: luci
+Architecture: all
+Installed-Size: 105
+Filename: luci_git-15.113.66125-f322842-1_all.ipk
+Size: 869
+MD5Sum: 43d9ee0a42914e6ac54f239e1d4b5877
+SHA256sum: ff8b1757589f71acc79fa1041270982d4cc411389804929ce7e4e0ac015d98b6
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+

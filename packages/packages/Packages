@@ -1,0 +1,1329 @@
+Package: glib2
+Version: 2.43.4-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: lantiq
+Installed-Size: 885267
+Filename: glib2_2.43.4-1_lantiq.ipk
+Size: 877902
+MD5Sum: 0879f11a77ab9a6778ff6215fec0aaa0
+SHA256sum: be3b53bc2f27853bcca9e7c8944b939c983b4893e46aa326fe8ed352312aaf2d
+Description:  The GLib library of C routines
+
+Package: htop
+Version: 1.0.3-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: lantiq
+Installed-Size: 44013
+Filename: htop_1.0.3-1_lantiq.ipk
+Size: 44793
+MD5Sum: b082ce1f3086d6cdb6a8b8a5bd0a76bb
+SHA256sum: 8c8835b273aa4f6f7ff9ccc4828e98037be7e4934a04f5eb4c248d97ea45b1e7
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: kmod-cryptodev
+Version: 3.18.11+1.7-lantiq-1
+Depends: kernel (=3.18.11-1-79e7354b8c963f960d478182a7cd764d), kmod-crypto-core, kmod-crypto-authenc, kmod-crypto-hash
+Source: feeds/packages/utils/cryptodev-linux
+Section: kernel
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: lantiq
+Installed-Size: 19189
+Filename: kmod-cryptodev_3.18.11+1.7-lantiq-1_lantiq.ipk
+Size: 19945
+MD5Sum: 921c437e7e6f8a2c8e00d39aa357efec
+SHA256sum: cc8c611f8c690703201bb95ed4f0c34c786f1579e5a3ef00017656707ee4dd61
+Description:  This is a driver for that allows to use the Linux kernel supported
+ hardware ciphers by user-space applications.
+
+Package: libattr
+Version: 20150220-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: lantiq
+Installed-Size: 5905
+Filename: libattr_20150220-1_lantiq.ipk
+Size: 6680
+MD5Sum: bd5761a7ed8f04084d65ae26efd037fc
+SHA256sum: 17b15bfe37adc655ee54907222d2cb55e56e105243654da5e42875fcc1a86738
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcares
+Version: 1.10.0-1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: lantiq
+Installed-Size: 25144
+Filename: libcares_1.10.0-1_lantiq.ipk
+Size: 25966
+MD5Sum: b74b090eb1343e5759f2e4263a7d691e
+SHA256sum: fb3ed70e7bcdba4bf81e467197fdd615bf74cdf6c3cdae1f646b6bda46ac5a69
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: lantiq
+Installed-Size: 5391
+Filename: libffi_3.0.13-1_lantiq.ipk
+Size: 6381
+MD5Sum: d7b374920dfc6a76bb6c5cd02b47f089
+SHA256sum: 4646de9b7191bf57ed6ffbb80bd05cb8dd6934957abe98b3e024576df2f9ee2c
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: lantiq
+Installed-Size: 280603
+Filename: libgcrypt_1.6.1-1_lantiq.ipk
+Size: 278810
+MD5Sum: 24105e92b64cdc64d14700af8f531188
+SHA256sum: e3c61113f363c2553a48182ca0f5db0d80a50bdde4a653ac8f0fd82e65bc8a3f
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: lantiq
+Installed-Size: 5772
+Filename: libgpg-error_1.12-1_lantiq.ipk
+Size: 6620
+MD5Sum: b72f9ca03bc2bea2312552de12633b11
+SHA256sum: a6aa6a298cd98a74397cfc4b8e68adcf85dab073df45c3fdf08147383f5e37e7
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libmosquitto
+Version: 1.4.1-2
+Depends: libc, libpthread, librt, libcares, libopenssl
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: libs
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: lantiq
+Installed-Size: 20055
+Filename: libmosquitto_1.4.1-2_lantiq.ipk
+Size: 20954
+MD5Sum: e2530517bbb6bf9fc0d0cdabdd547e88
+SHA256sum: 1f192e082015590fb3904bf7b783aeb692fb1b4944ec1b8cd2764e6cd7d30166
+Description:  Library required for mosquitto's command line client tools, also for
+ use by any third party software that wants to communicate with a
+ mosquitto server.
+ 
+ Should be useable for communicating with any MQTT v3.1/3.1.1 compatible
+ server, such as IBM's RSMB, in addition to Mosquitto
+ This package is built with SSL support
+
+Package: libmysqlclient-r
+Version: 5.1.73-1
+Depends: libc, uclibcxx, zlib, libpthread
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: lantiq
+Installed-Size: 175555
+Filename: libmysqlclient-r_5.1.73-1_lantiq.ipk
+Size: 167683
+MD5Sum: 8ea4325c3f6c8833d5d03e905624d0bc
+SHA256sum: e2ec5f54258f0bce503be3858d9825561a5e35bfb41b63f38c81035077a26c2a
+Description:  MySQL client library threadsafe
+
+Package: libopenldap
+Version: 2.4.39-2
+Depends: libc, libopenssl, libsasl2, libpthread
+Source: feeds/packages/libs/openldap
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: lantiq
+Installed-Size: 173830
+Filename: libopenldap_2.4.39-2_lantiq.ipk
+Size: 174810
+MD5Sum: 1f695348323ca44ff247635aeecb33a4
+SHA256sum: 03bf8fc2b226626b08a8243c3303582deddfe58371f3adf40af31b085eb9ddfb
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libsasl2
+Version: 2.1.26-3
+Depends: libc, libopenssl
+Source: feeds/packages/libs/cyrus-sasl
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: lantiq
+Installed-Size: 75537
+Filename: libsasl2_2.1.26-3_lantiq.ipk
+Size: 76353
+MD5Sum: ef31bc45ce50b4782880839dde0efd1f
+SHA256sum: c945a41d688166e44e7e0a188707f24ad114f6cc76c10a5c7c44279ea534cde7
+Description:  A general purpose authentication library
+
+Package: libsqlite3
+Version: 3080803-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: lantiq
+Installed-Size: 335553
+Filename: libsqlite3_3080803-1_lantiq.ipk
+Size: 335927
+MD5Sum: dde8078e33a2e72ce340f15934c6ba0c
+SHA256sum: bda31d74b3534b8d622337a08c035c6d249f6571331683a63019d926992f9b50
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: lantiq
+Installed-Size: 444601
+Filename: libxml2_2.9.2-3_lantiq.ipk
+Size: 442383
+MD5Sum: 445268e743ab0206f66b135d70d19ee4
+SHA256sum: 0e75ac98258bad8c1387f58832f60966681c056396f3192bab8bb9af3d08e0eb
+Description:  A library for manipulating XML and HTML resources.
+
+Package: mc
+Version: 4.8.14-1.3
+Depends: libc, glib2, libncurses, libmount, librpc
+Source: feeds/packages/utils/mc
+License: GPL-3.0+
+Section: utils
+Maintainer: Dirk Brenken <dibdot@gmail.com>
+Architecture: lantiq
+Installed-Size: 251099
+Filename: mc_4.8.14-1.3_lantiq.ipk
+Size: 251626
+MD5Sum: 9766eb9dd7f7a3d021c0c5a74b9f97ba
+SHA256sum: 9351deacbf074666f2882f19a571fb5b6cf71526bddf3f3164a3c917c577673f
+Description:  GNU Midnight Commander is a visual file manager,
+ licensed under GNU General Public License and therefore qualifies as Free Software.
+ It's a feature rich full-screen text mode application that allows you to copy,
+ move and delete files and whole directory trees, search for files
+ and run commands in the subshell. Internal viewer and editor are included.
+
+Package: mosquitto-client
+Version: 1.4.1-2
+Depends: libc, librt, libuuid, libcares, libmosquitto
+Source: feeds/packages/net/mosquitto
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: net
+Require-User: mosquitto=200:mosquitto=200
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: lantiq
+Installed-Size: 14785
+Filename: mosquitto-client_1.4.1-2_lantiq.ipk
+Size: 15445
+MD5Sum: 3c9d9071f9b9c50f852ac4e66b953165
+SHA256sum: 737237264e19ffdcc57f30d1cc2a7f2fa3afc19c6dea9adf3af6f2c7b8e72a5a
+Description:  Command line client tools for publishing messages to MQTT servers
+ and subscribing to topics.
+ This package is built with SSL support
+
+Package: strongswan-charon
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 166892
+Filename: strongswan-charon_5.3.0-1_lantiq.ipk
+Size: 167722
+MD5Sum: 29f8a9658f7aec0e4ebbf1ec9b773c9e
+SHA256sum: 8147e45f3a33b5cc02f7687e168fb809b8b48f9c01aa8f50458f72fb3d997fbf
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-default
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-attr, strongswan-mod-constraints, strongswan-mod-des, strongswan-mod-dnskey, strongswan-mod-fips-prf, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-md5, strongswan-mod-nonce, strongswan-mod-pem, strongswan-mod-pgp, strongswan-mod-pkcs1, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-resolve, strongswan-mod-revocation, strongswan-mod-sha1, strongswan-mod-sha2, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xauth-generic, strongswan-mod-xcbc, strongswan-utils
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 104
+Filename: strongswan-default_5.3.0-1_lantiq.ipk
+Size: 1069
+MD5Sum: 4eaff21fb04e36586582b775505a7f69
+SHA256sum: b3d53310ba441648553e158877c167bb42f6b95a260dac2681af4e5f03105a3a
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies to match upstream defaults.
+
+Package: strongswan-minimal
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 104
+Filename: strongswan-minimal_5.3.0-1_lantiq.ipk
+Size: 992
+MD5Sum: e9c3e3b2cf76d16e690b0b438b382850
+SHA256sum: 7cf968dbebf46344cb101b6c86288735ae08aaa37d099e909ac4de4b38542ec0
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-addrblock
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2629
+Filename: strongswan-mod-addrblock_5.3.0-1_lantiq.ipk
+Size: 3378
+MD5Sum: 4249ca62f88b4cb00fb8a6f259178940
+SHA256sum: 6aa18a04ce210962a59d530d6a87eaaa44903206ef96e27f0c1519b652e51c40
+Description:  StrongSwan RFC 3779 address block constraint support plugin
+
+Package: strongswan-mod-aes
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 16802
+Filename: strongswan-mod-aes_5.3.0-1_lantiq.ipk
+Size: 15568
+MD5Sum: e6a241d17726a30fc5eac51b269d3621
+SHA256sum: bfaf2ef516ace90e60762ad6891f26babffa0c0b5ccbfdd95e69575641e89e64
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-af-alg
+Version: 5.3.0-1
+Depends: libc, strongswan, kmod-crypto-user
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5159
+Filename: strongswan-mod-af-alg_5.3.0-1_lantiq.ipk
+Size: 5921
+MD5Sum: 8359cd6419febb710260f92ea910fe69
+SHA256sum: cdf02ddb2e909739430dcb142e79b598fffba8122729b6d51d1c97003e19ef7b
+Description:  StrongSwan AF_ALG crypto interface to Linux Crypto API plugin
+
+Package: strongswan-mod-agent
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3813
+Filename: strongswan-mod-agent_5.3.0-1_lantiq.ipk
+Size: 4538
+MD5Sum: 1cd00d1212d25a89a7b654ab7265b50c
+SHA256sum: f44578f1d98171c301c078992258368bcbc82d4cd4a129e244c9e707e29ccb2d
+Description:  StrongSwan SSH agent signing plugin
+
+Package: strongswan-mod-attr-sql
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-mod-sql, strongswan-charon
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 15932
+Filename: strongswan-mod-attr-sql_5.3.0-1_lantiq.ipk
+Size: 16698
+MD5Sum: 1d4374e22f81dd9757ace86d48a4cd93
+SHA256sum: 9705312f10ccc6cc689ca189433e8b892e4fa4b7d0c0d177fa67fea123042fd0
+Description:  StrongSwan SQL based config plugin
+
+Package: strongswan-mod-attr
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3726
+Filename: strongswan-mod-attr_5.3.0-1_lantiq.ipk
+Size: 4447
+MD5Sum: ca6d8f9d62768915058811bf0ef3d69a
+SHA256sum: 6e5e623afc0c4f2ca975c2b57f1e8646b8581d0217e7a93e36c700c4b4382b37
+Description:  StrongSwan file based config plugin
+
+Package: strongswan-mod-blowfish
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 7757
+Filename: strongswan-mod-blowfish_5.3.0-1_lantiq.ipk
+Size: 8538
+MD5Sum: 476b2cc416db22fcefd85946bd7522b8
+SHA256sum: 1cdafe3d1ff665a554e77c4f8715765ed225f83b647fc3bc5b2edf474d507d3c
+Description:  StrongSwan Blowfish crypto plugin
+
+Package: strongswan-mod-ccm
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3394
+Filename: strongswan-mod-ccm_5.3.0-1_lantiq.ipk
+Size: 4130
+MD5Sum: 65a8e9dd57f9fdbd66be81e51fe3176f
+SHA256sum: 77c88cbc10e5eb668174d58f5243e0e2939c1632c3b514301b8a4845ebb92748
+Description:  StrongSwan CCM AEAD wrapper crypto plugin
+
+Package: strongswan-mod-cmac
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3178
+Filename: strongswan-mod-cmac_5.3.0-1_lantiq.ipk
+Size: 3908
+MD5Sum: 4838943db1ff4a6191a567f1df200ff2
+SHA256sum: ab8a9f3ac7748a59c01d2aff4d1d307071114363d8cf6a6a51b60cfa6b5b7741
+Description:  StrongSwan CMAC crypto plugin
+
+Package: strongswan-mod-constraints
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 4163
+Filename: strongswan-mod-constraints_5.3.0-1_lantiq.ipk
+Size: 4898
+MD5Sum: 457242533f66ab702de45909abf3f688
+SHA256sum: 8c2a036f16d6685ef495821b29cca929a975c5fc4142028e814f311087405772
+Description:  StrongSwan advanced X509 constraint checking plugin
+
+Package: strongswan-mod-coupling
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3258
+Filename: strongswan-mod-coupling_5.3.0-1_lantiq.ipk
+Size: 4021
+MD5Sum: 884c2276ac5172f83d74ba3df23fce3d
+SHA256sum: 667ffab47ededf543fdb9c6b6e4f12f2fadb1ee7b71ce8804fb9450e4871329c
+Description:  StrongSwan IKEv2 plugin to couple peer certificates permanently to authentication plugin
+
+Package: strongswan-mod-ctr
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2399
+Filename: strongswan-mod-ctr_5.3.0-1_lantiq.ipk
+Size: 3126
+MD5Sum: 494350928146595d3ce9b763ddb51e99
+SHA256sum: 99be33960ab7066d0f0df147f963d26292f69660765838943a90044368054942
+Description:  StrongSwan Counter Mode wrapper crypto plugin
+
+Package: strongswan-mod-curl
+Version: 5.3.0-1
+Depends: libc, strongswan, libcurl
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3575
+Filename: strongswan-mod-curl_5.3.0-1_lantiq.ipk
+Size: 4306
+MD5Sum: c4790ceb17cda2f85c4145902aab4dae
+SHA256sum: b7f022c2a20d6e3f141800bf97494e24720621c97e75270f3b4b5c560e9c0a1a
+Description:  StrongSwan cURL fetcher plugin plugin
+
+Package: strongswan-mod-des
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 7468
+Filename: strongswan-mod-des_5.3.0-1_lantiq.ipk
+Size: 8250
+MD5Sum: 0b6bc16d4474ee5b330a3215c33e8d82
+SHA256sum: 01c69755e6e490a574bb960a4f2ab880a3ce5a2b991bf7eb08a63e2505b58780
+Description:  StrongSwan DES crypto plugin
+
+Package: strongswan-mod-dhcp
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 6543
+Filename: strongswan-mod-dhcp_5.3.0-1_lantiq.ipk
+Size: 7286
+MD5Sum: 5be80324c8808448ba0154011d28884c
+SHA256sum: bd0f029f38d97a1dfc13bbb0b275d68645420f45ed7e9f1d025453fc4fe64265
+Description:  StrongSwan DHCP based attribute provider plugin
+
+Package: strongswan-mod-dnskey
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2453
+Filename: strongswan-mod-dnskey_5.3.0-1_lantiq.ipk
+Size: 3180
+MD5Sum: 119495fae485f222fe44fe07016fe688
+SHA256sum: 99d9bfe72d6d207e8df3ef23d2c7a51ddfdd151a3e778bedad38c6a1b070c5ce
+Description:  StrongSwan DNS RR key decoding plugin
+
+Package: strongswan-mod-duplicheck
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 4989
+Filename: strongswan-mod-duplicheck_5.3.0-1_lantiq.ipk
+Size: 5737
+MD5Sum: eb8401a72651b3647af558701471eab4
+SHA256sum: 5b8a22478f213381326f31271a525ad547a69c0709f94cb85c608daf3a296659
+Description:  StrongSwan advanced duplicate checking plugin
+
+Package: strongswan-mod-eap-identity
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2304
+Filename: strongswan-mod-eap-identity_5.3.0-1_lantiq.ipk
+Size: 3030
+MD5Sum: d97a0825d8a312e72bc8e4dc9de07587
+SHA256sum: e2ff49fb96b32aa3be8c42f22a3e0f6f01cf3679e7fa357e783b5c8f5fa53918
+Description:  StrongSwan EAP identity helper plugin
+
+Package: strongswan-mod-eap-md5
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3081
+Filename: strongswan-mod-eap-md5_5.3.0-1_lantiq.ipk
+Size: 3821
+MD5Sum: e7efe14279253e888b9f3574fc23da6b
+SHA256sum: c3d385ae3f7d7b45a466a2ffc18202d55508d03ce4fd263732fd1c56e5c59e61
+Description:  StrongSwan EAP MD5 (CHAP) EAP auth plugin
+
+Package: strongswan-mod-eap-mschapv2
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-mod-md4, strongswan-mod-des
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 7924
+Filename: strongswan-mod-eap-mschapv2_5.3.0-1_lantiq.ipk
+Size: 8683
+MD5Sum: e1316c3d6370dccf4607238e5b1d0b20
+SHA256sum: d38f0117ca493c7dcf2039da8f3387d752e3c6f40e100887013496cbc610457a
+Description:  StrongSwan EAP MS-CHAPv2 EAP auth plugin
+
+Package: strongswan-mod-eap-radius
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 24025
+Filename: strongswan-mod-eap-radius_5.3.0-1_lantiq.ipk
+Size: 24576
+MD5Sum: 5d017da8c4ed5117cb5607b8ba567645
+SHA256sum: d8d20086dbcf6b2f68a06183273d09f603d80b13bf5d6ccde9a94989156ceeb8
+Description:  StrongSwan EAP RADIUS auth plugin
+
+Package: strongswan-mod-farp
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3210
+Filename: strongswan-mod-farp_5.3.0-1_lantiq.ipk
+Size: 3930
+MD5Sum: c0d2810fa401e16082657f8552f9e533
+SHA256sum: 165b2c7f33df88eb6a39d5de870a00851899e2f1c246f6ce66c9c956250c8672
+Description:  StrongSwan fake arp respsonses plugin
+
+Package: strongswan-mod-fips-prf
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-mod-sha1
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2532
+Filename: strongswan-mod-fips-prf_5.3.0-1_lantiq.ipk
+Size: 3257
+MD5Sum: 7a89bf7964d0779b2abd5094588b92a6
+SHA256sum: a275f7135a2d696aa561c5aac3ca2d9091859ccf9dec83d0b38d87d4540915cf
+Description:  StrongSwan FIPS PRF crypto plugin
+
+Package: strongswan-mod-gcm
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3473
+Filename: strongswan-mod-gcm_5.3.0-1_lantiq.ipk
+Size: 4210
+MD5Sum: 4a12c24c6ddc61476007aceb7fbe5ea8
+SHA256sum: 03a297ccc94a509cdc62e72cd7e765d85ef348a05e27b459ab509e2d0aa1a7a3
+Description:  StrongSwan GCM AEAD wrapper crypto plugin
+
+Package: strongswan-mod-gcrypt
+Version: 5.3.0-1
+Depends: libc, strongswan, libgcrypt
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 9784
+Filename: strongswan-mod-gcrypt_5.3.0-1_lantiq.ipk
+Size: 10533
+MD5Sum: 67994edf3385fcac5523182b047ffc67
+SHA256sum: 730a4ca6fce0902ee91e91302d6d73ff30040d7d11e74555581c68d1cb608d59
+Description:  StrongSwan libgcrypt plugin
+
+Package: strongswan-mod-gmp
+Version: 5.3.0-1
+Depends: libc, strongswan, libgmp
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 9420
+Filename: strongswan-mod-gmp_5.3.0-1_lantiq.ipk
+Size: 10163
+MD5Sum: 9c999c5b2459b48054a20095fd61125f
+SHA256sum: 4a1eea64d8b7ea240da1fe61351c2ec86c25300398e729951fcc7be4fb71f5a8
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-ha
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 19327
+Filename: strongswan-mod-ha_5.3.0-1_lantiq.ipk
+Size: 20069
+MD5Sum: 693368f62d26f0c1a6b3c0ea2eba34c0
+SHA256sum: b01e2163f258269a629d7772ade80468b17b87781d48651d928bcb6b77773def
+Description:  StrongSwan high availability cluster plugin
+
+Package: strongswan-mod-hmac
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2572
+Filename: strongswan-mod-hmac_5.3.0-1_lantiq.ipk
+Size: 3298
+MD5Sum: 0423741c832125d05a6491250095b5ed
+SHA256sum: 3646026125400a4bc874b808f87d61dcbff1b80416a76219f433636b60877bae
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-libipsec
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 17798
+Filename: strongswan-mod-kernel-libipsec_5.3.0-1_lantiq.ipk
+Size: 18542
+MD5Sum: 71dbe90bd43159ba13d744ddcda009ca
+SHA256sum: 5a3d28bd50a4c39b8464463de6846851891a8f8ac48af30b92069a2895001c48
+Description:  StrongSwan libipsec kernel interface plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 26249
+Filename: strongswan-mod-kernel-netlink_5.3.0-1_lantiq.ipk
+Size: 26922
+MD5Sum: 6491fc7c9f7fa0aa9e2bc467f8e91e9f
+SHA256sum: 6e074b096e7d15222662a0ab34529b44f78fb4341029254c04f268d1c7554062
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-ldap
+Version: 5.3.0-1
+Depends: libc, strongswan, libopenldap
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2834
+Filename: strongswan-mod-ldap_5.3.0-1_lantiq.ipk
+Size: 3564
+MD5Sum: 0b7204bd7d71947568db524284783877
+SHA256sum: 422da1f2edd11c9e29e31c69861cf89390f9cbe0663cd6d1cd716db3bae965f4
+Description:  StrongSwan LDAP plugin
+
+Package: strongswan-mod-led
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2926
+Filename: strongswan-mod-led_5.3.0-1_lantiq.ipk
+Size: 3666
+MD5Sum: 8459be8938b4dbb2728c56d1da107867
+SHA256sum: e6e479ca753e69f8c44a34574c84dd5f43817ef7cd56ef8fc82f1f37345d7991
+Description:  StrongSwan LED blink on IKE activity plugin
+
+Package: strongswan-mod-load-tester
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 12653
+Filename: strongswan-mod-load-tester_5.3.0-1_lantiq.ipk
+Size: 13372
+MD5Sum: 7f1f22d2fcbca9d590c4c61255f617df
+SHA256sum: a604ae99a9714b26c815cfffcbf888c44cfac2eb881a36edb4ccf5b8b752615c
+Description:  StrongSwan load testing plugin
+
+Package: strongswan-mod-md4
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3197
+Filename: strongswan-mod-md4_5.3.0-1_lantiq.ipk
+Size: 3927
+MD5Sum: 94b26bf98d1cb8e642de9449e1226538
+SHA256sum: 2899ff4bf54e4a544c94d3968af678e4422940ab24033e3a556ba34b2762b4c4
+Description:  StrongSwan MD4 crypto plugin
+
+Package: strongswan-mod-md5
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 4083
+Filename: strongswan-mod-md5_5.3.0-1_lantiq.ipk
+Size: 4810
+MD5Sum: 05c8c48ee4092102f6c8c5bcf0bc562e
+SHA256sum: 58dc27dfb995ec71deb2ea409528ff85e98d6ad8b2e52b7066b5b3dc3ee1b8c2
+Description:  StrongSwan MD5 crypto plugin
+
+Package: strongswan-mod-mysql
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-mod-sql, libmysqlclient-r
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5417
+Filename: strongswan-mod-mysql_5.3.0-1_lantiq.ipk
+Size: 6179
+MD5Sum: 4ae34330110e553f565b4a6709aa7736
+SHA256sum: 67c94b980c9cebf0de500f9e6979b59cb6d67814a533d0ceb5096e93392e15fd
+Description:  StrongSwan MySQL database interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 1815
+Filename: strongswan-mod-nonce_5.3.0-1_lantiq.ipk
+Size: 2574
+MD5Sum: f1c524de9516459ea39c2cb56474146a
+SHA256sum: fc2877ed76c366240796e01b37edfc477a77acf1491118d2987e46313ce23794
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-openssl
+Version: 5.3.0-1
+Depends: libc, strongswan, libopenssl
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 25531
+Filename: strongswan-mod-openssl_5.3.0-1_lantiq.ipk
+Size: 26179
+MD5Sum: c884dde395f7979d548614575e53e73e
+SHA256sum: 8c6a0749094b058f6c35e98f058d50f9e0bc7f7a6dbc2af1355715e6583a2e82
+Description:  StrongSwan OpenSSL crypto plugin
+
+Package: strongswan-mod-pem
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5477
+Filename: strongswan-mod-pem_5.3.0-1_lantiq.ipk
+Size: 6200
+MD5Sum: 5d8bbc644830e0c16b3ae0b109c2c5d1
+SHA256sum: 24916f1ec69413d002a9d6443b7c33874e040a2d55028dbb678d497100da3aa9
+Description:  StrongSwan PEM decoding plugin
+
+Package: strongswan-mod-pgp
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5676
+Filename: strongswan-mod-pgp_5.3.0-1_lantiq.ipk
+Size: 6410
+MD5Sum: 6a8e1884b5bab42d48ce0703d3fdbef4
+SHA256sum: 44f1ddfc46cfd22dab91fcb536ea76d1edeab7dbc5e1c569fe22085ea5ff6a4d
+Description:  StrongSwan PGP key decoding plugin
+
+Package: strongswan-mod-pkcs11
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 21862
+Filename: strongswan-mod-pkcs11_5.3.0-1_lantiq.ipk
+Size: 22412
+MD5Sum: b9f03072ad0a81c34c372edcc67f52ef
+SHA256sum: 519c38af5de199e674164aec6b9fdcc374aa0c3fdbac4b66d748496ba72cb146
+Description:  StrongSwan PKCS11 key decoding plugin
+
+Package: strongswan-mod-pkcs1
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3899
+Filename: strongswan-mod-pkcs1_5.3.0-1_lantiq.ipk
+Size: 4633
+MD5Sum: cb9ab594c536bb2e18e81e1aafebec14
+SHA256sum: 5adc763b6d6faac5cb50cf7a9eb11e3711801ae76df3b62d79808e87d8e15a36
+Description:  StrongSwan PKCS1 key decoding plugin
+
+Package: strongswan-mod-pkcs8
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2513
+Filename: strongswan-mod-pkcs8_5.3.0-1_lantiq.ipk
+Size: 3244
+MD5Sum: 0539a195d80186f42289c3a6040581fb
+SHA256sum: 72ebcbd4787412c2eac4a15a514f12f6711033458cdc8000651c943c4cfa6696
+Description:  StrongSwan PKCS8 key decoding plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2655
+Filename: strongswan-mod-pubkey_5.3.0-1_lantiq.ipk
+Size: 3386
+MD5Sum: 5e64164de1116f47cf45583ea092eb28
+SHA256sum: 502a16d4eea0d0add9e122b087b9b33ce7f9bc75db2c0704eb18b7afa91d75e7
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2647
+Filename: strongswan-mod-random_5.3.0-1_lantiq.ipk
+Size: 3367
+MD5Sum: 1555cd04de78574780d85c890da5480d
+SHA256sum: dd5604d5a567956768e267be228a612140d3e6a79cda1308f06ab25263c1e07b
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-resolve
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3425
+Filename: strongswan-mod-resolve_5.3.0-1_lantiq.ipk
+Size: 4155
+MD5Sum: ad82279ac27aa2d4094c693bf02c1028
+SHA256sum: 07b53d676f088ffabeae1d62c8162fc8995f8f14bbd11354b3c6d1f80bb050b1
+Description:  StrongSwan DNS resolver plugin
+
+Package: strongswan-mod-revocation
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 4943
+Filename: strongswan-mod-revocation_5.3.0-1_lantiq.ipk
+Size: 5690
+MD5Sum: 5934fbae294e889707b5cdcb2051ad09
+SHA256sum: c768ebeb3dbd74150939363e05e9b9af584d1278a93ac78300a9705da1cd56a6
+Description:  StrongSwan X509 CRL/OCSP revocation plugin
+
+Package: strongswan-mod-sha1
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5930
+Filename: strongswan-mod-sha1_5.3.0-1_lantiq.ipk
+Size: 6657
+MD5Sum: 204b101dcc64144834cfebaeef894b29
+SHA256sum: 374ca40f2faaa8d69c47d17ec501d6fd734f4204a6810332dde6ab36c91ab93b
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-sha2
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5436
+Filename: strongswan-mod-sha2_5.3.0-1_lantiq.ipk
+Size: 6168
+MD5Sum: fea21799262bcba32b92cf8b5791bf98
+SHA256sum: bb7b5ee1a47fcaae08163b233e6430bbc9066227fb2bf555b5159452b61f3df0
+Description:  StrongSwan SHA2 crypto plugin
+
+Package: strongswan-mod-smp
+Version: 5.3.0-1
+Depends: libc, strongswan, libxml2
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 6175
+Filename: strongswan-mod-smp_5.3.0-1_lantiq.ipk
+Size: 6979
+MD5Sum: 82fdad567cbfaa3653c449ef318ce342
+SHA256sum: 2769475d2f6297c03e7b713dc62dd8a27ca9cf4f2d81b88ab5cc40094821c734
+Description:  StrongSwan SMP configuration and control interface plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5154
+Filename: strongswan-mod-socket-default_5.3.0-1_lantiq.ipk
+Size: 5919
+MD5Sum: 9d7dd98c402e197f2321ca8a2ebb1947
+SHA256sum: da2015a0b581da300cdffa88855f06f2b141d8ebbced897168e984de64bc52a4
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-socket-dynamic
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 4638
+Filename: strongswan-mod-socket-dynamic_5.3.0-1_lantiq.ipk
+Size: 5391
+MD5Sum: f56ebbcf798d3acded2c24a10f19686a
+SHA256sum: 89972ecaa41dc302b4ca1962d9e301c2e5e014730696204b496d67108c161a5c
+Description:  StrongSwan dynamic socket implementation for charon plugin
+
+Package: strongswan-mod-sql
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 6904
+Filename: strongswan-mod-sql_5.3.0-1_lantiq.ipk
+Size: 7701
+MD5Sum: 45f32a0f665b350ca9fbd3bbab70625a
+SHA256sum: 9df598d31473c91828118fd3c4af47a5bc1bd6293f3c9608dfe26bc8e24dbdbe
+Description:  StrongSwan SQL database interface plugin
+
+Package: strongswan-mod-sqlite
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-mod-sql, libsqlite3
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3835
+Filename: strongswan-mod-sqlite_5.3.0-1_lantiq.ipk
+Size: 4583
+MD5Sum: ca1f40e0bf9597fc36537778751723cd
+SHA256sum: 6a0d7d70b38a096c9d6170073770a373e2e7d401c95bacffafe534a5e973817c
+Description:  StrongSwan SQLite database interface plugin
+
+Package: strongswan-mod-stroke
+Version: 5.3.0-1
+Depends: libc, strongswan, strongswan-utils
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 65667
+Filename: strongswan-mod-stroke_5.3.0-1_lantiq.ipk
+Size: 66484
+MD5Sum: b18078e0ef4f3a10c96ce600910a99df
+SHA256sum: e80ea053f62146f53dd800513e863010ba67d5ff9b9e8a177e29f09cde94a1b2
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-test-vectors
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 19515
+Filename: strongswan-mod-test-vectors_5.3.0-1_lantiq.ipk
+Size: 20147
+MD5Sum: 700a8d8fe42b886a5379d550895b6644
+SHA256sum: 81a2892ad11d0663d44a2f6b8d4313db7b0e0c55aa7aadf7d94e7e43f6c9e77f
+Description:  StrongSwan crypto test vectors plugin
+
+Package: strongswan-mod-uci
+Version: 5.3.0-1
+Depends: libc, strongswan, libuci
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5963
+Filename: strongswan-mod-uci_5.3.0-1_lantiq.ipk
+Size: 6705
+MD5Sum: bfdca27b400acffd1716f8c9d654a087
+SHA256sum: 5579611afe460a65531270b402fe368814e12a1366505744d47025284b20586b
+Description:  StrongSwan UCI config interface plugin
+
+Package: strongswan-mod-unity
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5156
+Filename: strongswan-mod-unity_5.3.0-1_lantiq.ipk
+Size: 5910
+MD5Sum: b8abb36a51e54e00537c84fd885a01ad
+SHA256sum: 7cce85c4a8ee292f039189afa62ca7755491608571bc86a812ebfa7a0b30641f
+Description:  StrongSwan Cisco Unity extension plugin
+
+Package: strongswan-mod-updown
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 8104
+Filename: strongswan-mod-updown_5.3.0-1_lantiq.ipk
+Size: 8874
+MD5Sum: 5724cb5f7dead879ad2d561b15df32fd
+SHA256sum: 8593bfb3571707d5fdaec20eb0e3a0518162e8ffe86240b9a2576e51721ea268
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-whitelist
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 5575
+Filename: strongswan-mod-whitelist_5.3.0-1_lantiq.ipk
+Size: 6324
+MD5Sum: 13c67a51e333b90b0b8bf6090d945ba9
+SHA256sum: ae63a72af3266233aa85b2ab862df26cf39b6fd1e8874345e197a01c03c35b0b
+Description:  StrongSwan peer identity whitelisting plugin
+
+Package: strongswan-mod-x509
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 26226
+Filename: strongswan-mod-x509_5.3.0-1_lantiq.ipk
+Size: 26502
+MD5Sum: 49a0e0050c8551f4d6f1f840f8e454ee
+SHA256sum: bdf8d401e48c840e0690569d6eaa5793a81cb8dcebb117be48fbf6a86dee3483
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-eap
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3008
+Filename: strongswan-mod-xauth-eap_5.3.0-1_lantiq.ipk
+Size: 3748
+MD5Sum: 4aa1eeae2aebe6dc8f1d2c13c81ba6f6
+SHA256sum: 0d5c0aee49643f8b75e43c06d7cd62a1d73bc6aab44cc4f49f1201b5bfcc48be
+Description:  StrongSwan EAP XAuth backend plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 2966
+Filename: strongswan-mod-xauth-generic_5.3.0-1_lantiq.ipk
+Size: 3707
+MD5Sum: c1874c882a8af30b9eb9cd2b6a5fa877
+SHA256sum: c85e18106c70badb5c86d5f5dfc00aab995d685c4b03550505102cbb27d2eec7
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 3144
+Filename: strongswan-mod-xcbc_5.3.0-1_lantiq.ipk
+Size: 3878
+MD5Sum: a0340ff7799aa645679e5dcbfc2bb3f8
+SHA256sum: 9c7730eb5f38243629d604c5cbb8e3d56471601be3fc892997baf7c475b3395a
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan-utils
+Version: 5.3.0-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 35230
+Filename: strongswan-utils_5.3.0-1_lantiq.ipk
+Size: 36057
+MD5Sum: 33ac5d62fdadf0f20881f4eb06d8e00d
+SHA256sum: cdf1c6be6d187032b8709888423e4a5cf10f188d97af03a2c78a1c763b5e77f7
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the pki & scepclient utilities.
+
+Package: strongswan
+Version: 5.3.0-1
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 120087
+Filename: strongswan_5.3.0-1_lantiq.ipk
+Size: 119676
+MD5Sum: e1361b9796f85e154d0a09be3f857cf2
+SHA256sum: eac05eb6284e18d70fdfc18f40d4046b337c32049c0c450431a1cf380250ffbd
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+

@@ -1,0 +1,5 @@
+SHA256(openwrt-lantiq-xrx200-ARV7519RW22-jffs2-128k.image)= 340522d25c79af68753a80cc00df64dd272333649fb81c3abc572e663dcd29de
+SHA256(openwrt-lantiq-xrx200-ARV7519RW22-jffs2-64k.image)= edf173eaeb49ea00d78ef7ce9afdcd93d0f954d77392551f0dc24441e0b4a4e3
+SHA256(openwrt-lantiq-xrx200-ARV7519RW22-squashfs.image)= a5a13f6842e282f0d49a0bf32682cb357b3e3ea0e58fa3fe0c5022be9ba7b1bb
+SHA256(openwrt-lantiq-xrx200-ARV7519RW22-uImage)= c43c439b023be673ae6f4953ce0aa1d8e69f8ab39df1c307a93330bd79e4b953
+SHA256(sha256sums)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

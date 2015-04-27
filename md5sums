@@ -1,0 +1,5 @@
+95db5f3fcb5b15aa9abc0bec46db4b57 *openwrt-lantiq-xrx200-ARV7519RW22-jffs2-128k.image
+de6b482c7a11041b45f010867cddaaa7 *openwrt-lantiq-xrx200-ARV7519RW22-jffs2-64k.image
+0859ea6f32fbe3a7274cb79118ce4ba9 *openwrt-lantiq-xrx200-ARV7519RW22-squashfs.image
+f161f6f21fee11d64fcbbac9a8d19f5c *openwrt-lantiq-xrx200-ARV7519RW22-uImage
+b1519693030d5c55ac993e2b63a82f85 *sha256sums
